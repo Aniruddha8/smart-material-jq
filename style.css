@@ -1,0 +1,48 @@
+body{
+	background-image: url("images/paper-background.png");
+}
+h1{
+	font-size: 75px;
+	color: black;
+	text-align:center; 
+}
+.third{
+	width: 33.33%;
+	box-sizing: border-box;;
+	float: left;
+}
+.half{
+	width: 50%;
+	box-sizing: border-box;;
+	float: left;
+}
+h2{
+	font-size: 24px;
+	font-stretch: extra-expanded;
+}
+a:link ,a:visited{
+	text-decoration: none;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: blue;
+}
+a:hover{
+	text-decoration: underline;
+}
+a.current{
+	color: red;
+}
+img{
+	height:250px;
+	width:250px;
+	margin: 10px auto 10px auto;
+	border-width: 10px;
+	border-color: black;
+}
+p{
+	text-align: center;
+}
+img{
+	display: block;
+}
